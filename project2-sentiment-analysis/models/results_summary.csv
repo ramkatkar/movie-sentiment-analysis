@@ -1,0 +1,6 @@
+Model,CV F1 (5-fold),Test Accuracy,Precision,Recall,F1 Score,ROC-AUC
+Multinomial Naive Bayes (TF-IDF),0.8557 ± 0.0676,0.8,0.7692,0.8333,0.8,0.8782
+Complement Naive Bayes (BoW),0.8747 ± 0.0733,0.8,0.7692,0.8333,0.8,0.8846
+Linear SVM (TF-IDF),0.8336 ± 0.0391,0.72,0.6667,0.8333,0.7407,0.8333
+SGD Classifier (TF-IDF),0.7719 ± 0.0554,0.72,0.6667,0.8333,0.7407,0.7596
+Logistic Regression (TF-IDF),0.8476 ± 0.0410,0.68,0.625,0.8333,0.7143,0.8462
